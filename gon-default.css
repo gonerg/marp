@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
- * Marp Dracula theme.
- * @theme dracula
+ * Marp GonPPT theme.
+ * @theme gonppt
  * @author Daniel Nicolas Gisolfi
  *
  * @auto-scaling true
@@ -12,80 +12,80 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|IBM+Plex+Sans:400,700");
 
 :root {
-  --dracula-background: #282a36;
-  --dracula-current-line: #44475a;
-  --dracula-foreground: #f8f8f2;
-  --dracula-comment: #6272a4;
-  --dracula-cyan: #8be9fd;
-  --dracula-green: #50fa7b;
-  --dracula-orange: #ffb86c;
-  --dracula-pink: #ff79c6;
-  --dracula-purple:#bd93f9;
-  --dracula-red: #ff5555;
-  --dracula-yellow: #f1fa8c;
+  --gonppt-background: #282a36;
+  --gonppt-current-line: #44475a;
+  --gonppt-foreground: #f8f8f2;
+  --gonppt-comment: #6272a4;
+  --gonppt-cyan: #8be9fd;
+  --gonppt-green: #50fa7b;
+  --gonppt-orange: #ffb86c;
+  --gonppt-pink: #ff79c6;
+  --gonppt-purple:#bd93f9;
+  --gonppt-red: #ff5555;
+  --gonppt-yellow: #f1fa8c;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: var(--dracula-background);
+  background: var(--gonppt-background);
 }
 
-/* Dracula Foreground */
+/* GonPPT Foreground */
 .hljs,
 .hljs-subst,
 .hljs-typing,
 .hljs-variable,
 .hljs-template-variable {
-    color: var(--dracula-foreground);
+    color: var(--gonppt-foreground);
 }
 
-/* Dracula Comment */
+/* GonPPT Comment */
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion {
-    color: var(--dracula-comment);
+    color: var(--gonppt-comment);
 }
 
-/* Dracula Cyan */
+/* GonPPT Cyan */
 .hljs-meta .hljs-doctag,
 .hljs-built_in,
 .hljs-selector-tag,
 .hljs-section,
 .hljs-link,
 .hljs-class {
-    color: var(--dracula-cyan);
+    color: var(--gonppt-cyan);
 }
 
 
-/* Dracula Green */
+/* GonPPT Green */
 .hljs-title {
-    color: var(--dracula-green);
+    color: var(--gonppt-green);
 }
 
-/* Dracula Orange */
+/* GonPPT Orange */
 .hljs-params {
-    color: var(--dracula-orange);
+    color: var(--gonppt-orange);
 }
 
-/* Dracula Pink */
+/* GonPPT Pink */
 .hljs-keyword {
-    color: var(--dracula-pink);
+    color: var(--gonppt-pink);
 }
 
-/* Dracula Purple */
+/* GonPPT Purple */
 .hljs-literal,
 .hljs-number {
-    color: var(--dracula-purple);
+    color: var(--gonppt-purple);
 }
 
-/* Dracula Red */
+/* GonPPT Red */
 .hljs-regexp {
-    color: var(--dracula-red);
+    color: var(--gonppt-red);
 }
 
-/* Dracula Yellow */
+/* GonPPT Yellow */
 .hljs-string,
 .hljs-name,
 .hljs-type,
@@ -94,7 +94,7 @@
 .hljs-bullet,
 .hljs-addition,
 .hljs-template-tag {
-    color: var(--dracula-yellow);
+    color: var(--gonppt-yellow);
 }
 
 .hljs-keyword,
@@ -125,7 +125,7 @@ h4,
 h5,
 h6 {
   margin: 0.5em 0 0 0;
-  color: var(--dracula-pink);
+  color: var(--gonppt-pink);
 }
 h1 strong,
 h2 strong,
@@ -168,7 +168,7 @@ blockquote {
 ul > li,
 ol > li {
   margin: 0.3em 0 0 0;
-  color:  var(--dracula-cyan);
+  color:  var(--gonppt-cyan);
 }
 ul > li > p,
 ol > li > p {
@@ -183,7 +183,7 @@ code {
   margin: -0.1em 0.15em;
   padding: 0.1em 0.2em;
   vertical-align: baseline;
-  color: var(--dracula-green);
+  color: var(--gonppt-green);
 }
 
 pre {
@@ -207,7 +207,7 @@ blockquote {
   margin: 1em 0 0 0;
   padding: 0 1em;
   position: relative;
-  color: var(--dracula-orange);
+  color: var(--gonppt-orange);
 }
 blockquote::after, blockquote::before {
   content: "“";
@@ -215,7 +215,7 @@ blockquote::after, blockquote::before {
   font-family: "Times New Roman", serif;
   font-weight: bold;
   position: absolute;
-  color: var(--dracula-green);
+  color: var(--gonppt-green);
 }
 blockquote::before {
   top: 0;
@@ -252,8 +252,8 @@ section {
   line-height: 1.35;
   letter-spacing: 1.25px;
   padding: 70px;
-  color: var(--dracula-foreground);
-  background-color: var(--dracula-background);
+  color: var(--gonppt-foreground);
+  background-color: var(--gonppt-background);
 }
 section > *:first-child,
 section > header:first-child + * {
@@ -261,11 +261,11 @@ section > header:first-child + * {
 }
 section a,
 section mark {
-  color: var(--dracula-red);
+  color: var(--gonppt-red);
 }
 section code {
-  background: var(--dracula-current-line);
-  color: var(--dracula-current-green);
+  background: var(--gonppt-current-line);
+  color: var(--gonppt-current-green);
 }
 section h1 strong,
 section h2 strong,
@@ -273,29 +273,29 @@ section h3 strong,
 section h4 strong,
 section h5 strong,
 section h6 strong {
-  color: var(--dracula-current-line);
+  color: var(--gonppt-current-line);
 }
 section pre > code {
-  background: var(--dracula-current-line);
+  background: var(--gonppt-current-line);
 }
 section header,
 section footer,
 section section::after,
 section blockquote::before,
 section blockquote::after {
-  color: var(--dracula-comment);
+  color: var(--gonppt-comment);
 }
 section table th,
 section table td {
-  border-color:  var(--dracula-current-line);
+  border-color:  var(--gonppt-current-line);
 }
 section table thead th {
-  background: var(--dracula-current-line);
-  color: var(--dracula-yellow);
+  background: var(--gonppt-current-line);
+  color: var(--gonppt-yellow);
 }
 section table tbody > tr:nth-child(even) td,
 section table tbody > tr:nth-child(even) th {
-  background: var(--dracula-current-line);
+  background: var(--gonppt-current-line);
 }
 
 header,
@@ -308,7 +308,7 @@ section::after {
   overflow: hidden;
   padding: 10px 25px;
   position: absolute;
-  color: var(--dracula-comment);
+  color: var(--gonppt-comment);
 }
 
 header {
